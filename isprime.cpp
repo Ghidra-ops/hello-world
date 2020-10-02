@@ -1,4 +1,3 @@
-// 判断素数
 #include<iostream>
 
 using namespace std;
