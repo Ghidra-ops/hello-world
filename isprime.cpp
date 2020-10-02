@@ -24,3 +24,18 @@ int main()
    
     return 0;
 }
+void  IsPrime(int num)
+{
+    bool flag = true;
+    for(int i = 2; i <= num / 2; i++) {
+       if(num % i == 0) {
+          flag = false;
+          break;
+       }
+    }
+    if (flag == false){
+       cout << "number is not prime!" << endl;
+    } else {
+       cout << "number is prime!" << endl;
+    }
+}
